@@ -22,7 +22,7 @@ class Formtodo extends React.Component {
   render() {
 
     let {job} = this.state;
-    console.log(job);
+ 
     return (
      <div className="row justify-content-center">
           <form 

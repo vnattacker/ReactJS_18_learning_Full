@@ -10,7 +10,10 @@ class MainTodo extends React.Component {
       { id: 1, name: "MAKE VIDEO" },
       { id: 2, name: "CEO" },
       { id: 3, name: "MARKETING" },
+      { id: 4, name: "LIVE TWITCH" },
+      { id: 5, name: "LIVE YOUTUBE" },
     ],
+    editJob: {},
   };
 
   // thêm việc
@@ -21,7 +24,7 @@ class MainTodo extends React.Component {
     }
     let checkDup = this.state.listJobs.find((n) => n.name == job.name);
     if (checkDup) {
-      toast.error("Có vẻ như bạn đã thêm '" + job.name + "' vào rồi");
+      toast.warn("Có vẻ như bạn đã thêm '" + job.name + "' vào rồi");
 
       return;
     }
@@ -42,14 +45,55 @@ class MainTodo extends React.Component {
 
     toast.success("Xoá '" + job.name + "' thành công!");
   };
+  //sửa công việc
+  editJober = (job) => {
+    let prevJob  = job.name;
+    let { listJobs, editJob } = this.state;
+
+
+    let IsEmpty = Object.keys(job).length === 0;
+    // cập nhật lại mảng
+    console.log("Job empty", IsEmpty);
+    let todoCopy = [...listJobs];
+
+    if (IsEmpty === false) {
+      let objIndex = todoCopy.findIndex(n => n.id == job.id);
+
+      console.log("index", objIndex);
+      console.log("editJob", editJob);
+      console.log("Job", job);
+      console.log("todoCopy", todoCopy);
+
+      //
+      if (objIndex === -1) {
+        toast.error("Công việc không tồn tại hoặc đã bị xoá");
+        return;
+      }
+
+      todoCopy[objIndex].name = job.name;
+      toast.success("Đã sửa thành "+job.name+"' thành công!");
+      return;
+    }
+
+    toast.error("Tham số chỉnh sửa rỗng!");
+  };
+
   render() {
-    let { listJobs } = this.state;
     // edit title
     document.title = "TODO APP";
+    let { listJobs, editJob } = this.state;
+    
+    console.log("editJob render",editJob);
+
     return (
       <>
         <Formtodo addJob={this.addJob} />
-        <TodoList jobs={listJobs} delJob={this.delJob} />
+        <TodoList
+          jobs={listJobs}
+          delJob={this.delJob}
+          editJob={this.editJober}
+          editState={editJob}
+        />
       </>
     );
   }
