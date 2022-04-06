@@ -16,7 +16,7 @@ class MainTodo extends React.Component {
     editJob: {},
   };
 
-  // thêm việc
+  // thêm việc  (prop function)
   addJob = (job) => {
     if (!job.name) {
       toast.error("Tên công việc không được rỗng");
@@ -35,7 +35,7 @@ class MainTodo extends React.Component {
     toast.success("Đã thêm '" + job.name + "' thành công!");
   };
 
-  // xoá công việc
+  // xoá todo (prop function)
   delJob = (job) => {
     let filter = this.state.listJobs.filter((n) => n != job);
     //
@@ -45,7 +45,7 @@ class MainTodo extends React.Component {
 
     toast.success("Xoá '" + job.name + "' thành công!");
   };
-  //sửa công việc
+  //sửa todo (prop function)
   editJober = (job) => {
     let prevJob  = job.name;
     let { listJobs, editJob } = this.state;

@@ -6,7 +6,7 @@ class TodoList extends React.Component {
     editJob: {}
   }
 
-// sửa todo list
+// sửa todo 
   handleEditJob = (item) => {
     let { editJob } = this.state;
     let isEmpty = Object.keys(editJob).length === 0;
