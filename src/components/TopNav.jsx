@@ -1,25 +1,45 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
+import { Link, NavLink } from "react-router-dom";
+import {withRouter} from 'react-router-dom';
 class TopNav extends React.Component {
+
+
+
+
   render() {
+
+    console.log("Top nav props: ",  this.context);
     return (
-      <div className="container">
-        <nav id="top-nav">
+      <div
+        id="top-nav"
+        className="container-fluid d-flex   justify-content-between"
+      >
+        <nav id="left-nav">
+          <ul className="justify-content-lg-center justify-content-md-center d-md-flex d-none">
+            <li>
+              <NavLink activeclassname="active" to="/">Home</NavLink>
+            </li>
+
+            <li>
+              <NavLink activeclassname="active"  to="/todoapp">Todo</NavLink>
+            </li>
+
+            <li>
+              <NavLink activeclassname="active"  to="/about">About</NavLink>
+            </li>
+            <li>
+              <NavLink activeclassname="active"  to="/contact">Contact</NavLink>
+            </li>
+          </ul>
+        </nav>
+
+        <nav className="left-nav justify-content-sm-center">
           <ul>
-            <li className="active">
-              <Link  to="/">Home</Link>
-            </li>
-
             <li>
-              <Link  to="/todoapp">Todo</Link>
-            </li>
-
-            <li  >
-              <Link   to="/about">About</Link>
+              <a href="">Đăng nhập</a>
             </li>
             <li>
-              <Link   to="/contact">Contact</Link>
+              <a href="">Đăng ký</a>
             </li>
           </ul>
         </nav>
