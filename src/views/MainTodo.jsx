@@ -2,7 +2,9 @@ import React from "react";
 import "../assets/scss/todo.scss";
 import Formtodo from "../components/Formtodo";
 import TodoList from "../components/TodoList";
-import { toast } from "react-toastify";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 class MainTodo extends React.Component {
   state = {
@@ -87,12 +89,26 @@ class MainTodo extends React.Component {
 
     return (
       <>
+        <h1 className="text-center">SIMPLE TODO APP</h1>
         <Formtodo addJob={this.addJob} />
         <TodoList
           jobs={listJobs}
           delJob={this.delJob}
           editJob={this.editJober}
           editState={editJob}
+        />
+        <ToastContainer
+         theme="colored"
+          position="top-right"
+          autoClose={800}
+          hideProgressBar={false}
+          newestOnTop={true}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          
         />
       </>
     );
