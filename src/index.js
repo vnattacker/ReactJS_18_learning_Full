@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import {MainTodo, About,Contact} from "./views/";
+import {CharFetch} from './components';
 
 // static file import
 import "./assets/scss/main.scss";
@@ -24,6 +25,7 @@ root.render(
           <Route path="/about" element={<About />} />
 
           <Route path="/contact" element={<Contact />} />
+          <Route path="/char-genshin" element={<CharFetch />} />
         </Route>
 
 

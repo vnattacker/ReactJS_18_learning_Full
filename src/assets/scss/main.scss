@@ -1,49 +1,121 @@
-
-
-ul{
+ul {
     padding: 0px !important;
     margin: 0px !important;
 }
 
-#top-nav{
+#top-nav {
     margin-top: 2px;
     background-color: #f1f1f1;
     box-shadow: inset 2px 2px 20px 1px #5399ff;
-    ul{
+
+    ul {
         list-style: none;
         display: flex;
-       
-     
-    
-       li{
-        
-            
-            a{
+
+
+
+        li {
+
+
+            a {
                 color: #0011d7;
                 text-decoration: none;
                 display: block;
                 padding: 8px 10px;
             }
-            &:hover{
+
+            &:hover {
                 background-color: #333;
-                
+
                 opacity: 0.5;
-                a{
+
+                a {
                     color: #fff;
                 }
             }
 
-            
-       }
+
+        }
     }
 
 }
 
-.active{
+.active {
     background-color: #5399ff !important;
     color: #fff !important;
-   h1, h2,h3, a{
+
+    h1,
+    h2,
+    h3,
+    a {
         color: #fff !important;
         text-decoration: none;
     }
+}
+
+
+
+.table-cute {
+    width: 100%;
+    margin: 10px 0px;
+    border: 2px solid #001d48;
+    thead{
+        tr{
+            background-color: #001d48;
+            color: #fff;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        th{
+            text-align: center;
+            padding: 10px;
+            border-left: 1px solid #dbdbdb;
+        }
+    }
+    tbody  {
+        tr {
+            padding: 10px;
+            border-bottom: 1px solid #dbdbdb;
+            color: #fff;
+            &:nth-child(even) {
+                background-color:  #678abe;
+            }
+    
+            &:nth-child(odd) {
+                background-color:   #19468a;
+            }
+    
+            td {
+                text-align: center;
+                padding: 10px;
+                border-left: 1px solid #dbdbdb;
+                width: fit-content;
+                img {
+                    width: 48px;
+                    height: 48px;
+                }
+            }
+           
+        }
+    }
+}
+
+.element{
+    background-size: 48px 48px;
+    height: 48px;
+    width: 48px;
+    background-position: center center;
+    font-size: 0px;
+    background-repeat: no-repeat;
+}
+
+.weap-type{
+    // background-color: #fff;
+    background-size: 48px 48px;
+    height: 48px;
+    width: 48px;
+    background-position: center center ;
+    font-size: 0px;
+    background-repeat: no-repeat;
+
 }

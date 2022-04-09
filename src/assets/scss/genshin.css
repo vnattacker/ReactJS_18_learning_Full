@@ -1,0 +1,282 @@
+*[class*="cap-sao-"] {
+    background-size: 48px 48px !important;
+    width: 48px !important;
+    height: 48px !important;
+}
+
+
+.cap-sao-1 {
+    background: url("http://192.168.1.18/Content/img/bg_star/bg_1star.png");
+    background-position-x: center;
+    background-position-y: center;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.cap-sao-2 {
+    background: url("http://192.168.1.18/Content/img/bg_star/bg_2star.png");
+    background-position-x: center;
+    background-position-y: center;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.cap-sao-3 {
+    background: url("http://192.168.1.18/Content/img/bg_star/bg_3star.png");
+    background-position-x: center;
+    background-position-y: center;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.cap-sao-4 {
+    background: url("http://192.168.1.18/Content/img/bg_star/bg_4star.png");
+    background-position-x: center;
+    background-position-y: center;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.cap-sao-5 {
+    background: url("http://192.168.1.18/Content/img/bg_star/bg_5star.png");
+    background-position-x: center;
+    background-position-y: center;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+div[class*="ntn-"] {
+    background-color: #fff;
+    height: 18px;
+    width: 18px;
+    left: 0px;
+    top: 0px;
+    /*position: absolute;*/
+    /*    display: none;
+*/
+}
+
+/*.char-items:hover div[class*="ntn-"]{
+    display: block;
+}*/
+.ntn-Pyro {
+    background-image: url("http://192.168.1.18/Content/img/Element/Element_Pyro.png");
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.ntn-Anemo {
+    background-image: url("http://192.168.1.18/Content/img/Element/Element_Anemo.png");
+    background-position-x: center;
+    background-position-y: center;
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.ntn-Cryo {
+    background-image: url("http://192.168.1.18/Content/img/Element/Element_Cryo.png");
+    background-position-x: center;
+    background-position-y: center;
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.ntn-Dendro {
+    background-image: url("http://192.168.1.18/Content/img/Element/Element_Dendro.png");
+    background-position-x: center;
+    background-position-y: center;
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.ntn-Electro {
+    background-image: url("http://192.168.1.18/Content/img/Element/Element_Electro.png");
+    background-position-x: center;
+    background-position-y: center;
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.ntn-Geo {
+    background-image: url("http://192.168.1.18/Content/img/Element/Element_Geo.png");
+    background-position-x: center;
+    background-position-y: center;
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.ntn-Hydro {
+    background-image: url("http://192.168.1.18/Content/img/Element/Element_Hydro.png");
+    background-position-x: center;
+    background-position-y: center;
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+div[class*="ntn-hd-"] {
+    position: static;
+    height: 32px;
+    width: 32px;
+    margin-right: 5px;
+    float: left;
+}
+
+div[class*="ntn-hd-"]:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/*vũ khí*/
+div[class*="vkn-hd-"] {
+    position: static !important;
+    height: 32px !important;
+    width: 32px !important;
+    margin-right: 5px !important;
+    float: left !important;
+}
+
+div[class*="vkn-hd-"]:after {
+    content: "" !important;
+    display: block !important;
+    clear: both !important;
+}
+
+div[class*="vkv-"] {
+    background-color: #fff;
+    height: 18px;
+    width: 18px;
+    display: block;
+    margin-right: 3px;
+    top: 0px;
+
+    right: 0;
+    z-index: 1;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    /*   display: none;*/
+}
+
+.lvk {
+    position: absolute;
+}
+
+/*.char-items:hover div[class*="vkv-"] {
+    display: block;
+}*/
+.vkv-Sword {
+    background-image: url("http://192.168.1.18/Content/img/Weapon/Icon_Sword.png");
+
+
+}
+
+.vkv-Bow {
+    background-image: url("http://192.168.1.18/Content/img/Weapon/Icon_Bow.png");
+
+
+}
+
+.vkv-Catalyst {
+    background-image: url("http://192.168.1.18/Content/img/Weapon/Icon_Catalyst.png");
+
+
+}
+
+.vkv-Claymore {
+    background-image: url("http://192.168.1.18/Content/img/Weapon/Icon_Claymore.png");
+
+
+}
+
+.vkv-Polearm {
+    background-image: url("http://192.168.1.18/Content/img/Weapon/Icon_Polearm.png");
+
+
+}
+
+/*bg*/
+div[class*="bg-char-"] .name-group {
+
+    position: relative;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 0;
+    background-repeat: repeat-y;
+    padding-bottom: 3px;
+    overflow: hidden;
+    color: #fff !important;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #000;
+    min-height: 38px;
+}
+
+div[class*="bg-char-"]:after {
+    position: absolute;
+    background: #000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    display: block;
+    z-index: -1;
+}
+
+.bg-char-Pyro .name-group {
+    background-image: url("http://192.168.1.18/Content/img/bg_element/pyro.jpg");
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.bg-char-Anemo .name-group {
+    color: #c9ff22;
+    background-image: url("http://192.168.1.18/Content/img/bg_element/anemo.jpg");
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.bg-char-Cryo .name-group {
+    background-image: url("http://192.168.1.18/Content/img/bg_element/cryo.jpg");
+}
+
+.bg-char-Hydro .name-group {
+    color: #c9ff22;
+
+    background-image: url("http://192.168.1.18/Content/img/bg_element/hydro.jpg");
+}
+
+.bg-char-Dendro .name-group {
+    background-image: url("http://192.168.1.18/Content/img/bg_element/dendro.jpg");
+}
+
+.bg-char-Electro .name-group {
+    background-image: url("http://192.168.1.18/Content/img/bg_element/electro.jpg");
+}
+
+.bg-char-Geo .name-group {
+    background-image: url("http://192.168.1.18/Content/img/bg_element/geo.jpg");
+}

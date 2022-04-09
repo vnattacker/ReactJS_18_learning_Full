@@ -1,21 +1,18 @@
 import React from "react";
+
 import { Link, NavLink } from "react-router-dom";
-import {withRouter} from 'react-router-dom';
-class TopNav extends React.Component {
+const TopNav  = (props)=> {
 
 
 
 
-  render() {
-
-    console.log("Top nav props: ",  this.context);
     return (
       <div
         id="top-nav"
         className="container-fluid d-flex   justify-content-between"
       >
-        <nav id="left-nav">
-          <ul className="justify-content-lg-center justify-content-md-center d-md-flex d-none">
+        <nav id="top-left-nav">
+          <ul className="justify-content-lg-center justify-content-md-center d-md-flex ">
             <li>
               <NavLink activeclassname="active" to="/">Home</NavLink>
             </li>
@@ -24,16 +21,14 @@ class TopNav extends React.Component {
               <NavLink activeclassname="active"  to="/todoapp">Todo</NavLink>
             </li>
 
+          
             <li>
-              <NavLink activeclassname="active"  to="/about">About</NavLink>
-            </li>
-            <li>
-              <NavLink activeclassname="active"  to="/contact">Contact</NavLink>
+              <NavLink activeclassname="active"  to="/char-genshin">Char GI</NavLink>
             </li>
           </ul>
         </nav>
 
-        <nav className="left-nav justify-content-sm-center">
+        <nav className="top-right-nav justify-content-sm-center">
           <ul>
             <li>
               <a href="">Đăng nhập</a>
@@ -45,7 +40,7 @@ class TopNav extends React.Component {
         </nav>
       </div>
     );
-  }
+  
 }
 
 export default TopNav;

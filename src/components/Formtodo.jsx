@@ -42,7 +42,8 @@ class Formtodo extends React.Component {
         <div className="m-3">
           <button onClick={this.handleSubmitJob}
            className="btn btn-primary align-center"
-           >Thêm việc</button>
+           >Thêm việc
+           </button>
         </div>
       </form>
      </div>
