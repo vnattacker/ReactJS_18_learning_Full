@@ -1,20 +1,28 @@
 import React from "react";
 import TopNav from "./components/TopNav";
 import { Outlet as Pages } from "react-router-dom";
+import Leftnav from "./components/LeftNav";
+import useMobile from "./customize/mobile"
+const  App = ()=>  {
+  const {isMobile} = useMobile();
 
-class App extends React.Component {
 
-
-
-  render() {
+ 
     return (
       <>
 
         <div className="header">
-          <TopNav />
+        {
+          isMobile === false ?  
+            <TopNav />
+
+          : <Leftnav/> 
+        }
+
+         
         </div>
 
-        <div className="container">
+        <div className="container" id="main">
           <Pages />
          
         </div>
@@ -22,7 +30,7 @@ class App extends React.Component {
 
       </>
     );
-  }
+  
 }
 
 export default App;

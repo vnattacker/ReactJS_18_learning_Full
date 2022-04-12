@@ -5,31 +5,37 @@ const useFetch = (url) => {
     const [getdata, setdata] = useState([]);
     const [error, setError] = useState(false);
     const [isLoading, setLoading] = useState(true);
+    const [errorMsg, setErrorMsg] = useState();
 
-    
+
     useEffect(() => {
-        try {
-            async function fecthApi (){
+
+
+        async function fecthApi() {
+            try {
+                setLoading(true);
                 var resp = await axios.get(url)
-                var data = resp && resp.data ?  resp.data: [];
+                var data = resp && resp.data ? resp.data : [];
 
                 setdata(JSON.parse(data));
                 setLoading(false);
-
+            } catch (e) {
+                setError(true);
+                setLoading(false);
+                setErrorMsg(e);
             }
-            fecthApi();
-        } catch (e) {
-            setError(true);
-            setLoading(false);
         }
+        fecthApi();
+
 
 
     }, []);
 
     return {
         getdata,
-        error, 
-        isLoading
+        error,
+        isLoading,
+        errorMsg,
     }
 }
 export default useFetch;

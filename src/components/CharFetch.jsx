@@ -7,14 +7,12 @@ export default function CharFetch() {
 
  const urlAvatar =  "http://tdk14dnu.tk/Content/img/Characters/";
 const urlApi = "http://tdk14dnu.tk/api/Genshin?type=CHAR";
-let {getdata, error, isLoading} = useFetch(urlApi);
+let {getdata, error, isLoading, errorMsg} = useFetch(urlApi);
 
 
 
  useEffect(()=>{
    setGenshin(getdata);
-    
-
  }, [getdata]);
     
 
@@ -34,6 +32,17 @@ let {getdata, error, isLoading} = useFetch(urlApi);
            </tr>
        </thead>
        <tbody>
+
+            {
+                isLoading === true ? "Đang tải chờ tý....":undefined
+
+            }
+            {
+                error &&  "Lỗi rồi - " + errorMsg
+                    
+                
+            }
+
            {
                genshin && genshin.length >= 0  && genshin.map(item=>(
                     <tr key={item.ID}>

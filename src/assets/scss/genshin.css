@@ -6,7 +6,7 @@
 
 
 .cap-sao-1 {
-    background: url("http://192.168.1.18/Content/img/bg_star/bg_1star.png");
+    background: url("http://tdk14dnu.tk/Content/img/bg_star/bg_1star.png");
     background-position-x: center;
     background-position-y: center;
     width: 100%;
@@ -15,7 +15,7 @@
 }
 
 .cap-sao-2 {
-    background: url("http://192.168.1.18/Content/img/bg_star/bg_2star.png");
+    background: url("http://tdk14dnu.tk/Content/img/bg_star/bg_2star.png");
     background-position-x: center;
     background-position-y: center;
     width: 100%;
@@ -24,7 +24,7 @@
 }
 
 .cap-sao-3 {
-    background: url("http://192.168.1.18/Content/img/bg_star/bg_3star.png");
+    background: url("http://tdk14dnu.tk/Content/img/bg_star/bg_3star.png");
     background-position-x: center;
     background-position-y: center;
     width: 100%;
@@ -33,7 +33,7 @@
 }
 
 .cap-sao-4 {
-    background: url("http://192.168.1.18/Content/img/bg_star/bg_4star.png");
+    background: url("http://tdk14dnu.tk/Content/img/bg_star/bg_4star.png");
     background-position-x: center;
     background-position-y: center;
     width: 100%;
@@ -43,7 +43,7 @@
 }
 
 .cap-sao-5 {
-    background: url("http://192.168.1.18/Content/img/bg_star/bg_5star.png");
+    background: url("http://tdk14dnu.tk/Content/img/bg_star/bg_5star.png");
     background-position-x: center;
     background-position-y: center;
     width: 100%;
@@ -66,7 +66,7 @@ div[class*="ntn-"] {
     display: block;
 }*/
 .ntn-Pyro {
-    background-image: url("http://192.168.1.18/Content/img/Element/Element_Pyro.png");
+    background-image: url("http://tdk14dnu.tk/Content/img/Element/Element_Pyro.png");
     background-position-x: center;
     background-position-y: center;
     background-size: 100%;
@@ -74,7 +74,7 @@ div[class*="ntn-"] {
 }
 
 .ntn-Anemo {
-    background-image: url("http://192.168.1.18/Content/img/Element/Element_Anemo.png");
+    background-image: url("http://tdk14dnu.tk/Content/img/Element/Element_Anemo.png");
     background-position-x: center;
     background-position-y: center;
 
@@ -84,7 +84,7 @@ div[class*="ntn-"] {
 }
 
 .ntn-Cryo {
-    background-image: url("http://192.168.1.18/Content/img/Element/Element_Cryo.png");
+    background-image: url("http://tdk14dnu.tk/Content/img/Element/Element_Cryo.png");
     background-position-x: center;
     background-position-y: center;
 
@@ -94,7 +94,7 @@ div[class*="ntn-"] {
 }
 
 .ntn-Dendro {
-    background-image: url("http://192.168.1.18/Content/img/Element/Element_Dendro.png");
+    background-image: url("http://tdk14dnu.tk/Content/img/Element/Element_Dendro.png");
     background-position-x: center;
     background-position-y: center;
 
@@ -104,7 +104,7 @@ div[class*="ntn-"] {
 }
 
 .ntn-Electro {
-    background-image: url("http://192.168.1.18/Content/img/Element/Element_Electro.png");
+    background-image: url("http://tdk14dnu.tk/Content/img/Element/Element_Electro.png");
     background-position-x: center;
     background-position-y: center;
 
@@ -114,7 +114,7 @@ div[class*="ntn-"] {
 }
 
 .ntn-Geo {
-    background-image: url("http://192.168.1.18/Content/img/Element/Element_Geo.png");
+    background-image: url("http://tdk14dnu.tk/Content/img/Element/Element_Geo.png");
     background-position-x: center;
     background-position-y: center;
 
@@ -123,7 +123,7 @@ div[class*="ntn-"] {
 }
 
 .ntn-Hydro {
-    background-image: url("http://192.168.1.18/Content/img/Element/Element_Hydro.png");
+    background-image: url("http://tdk14dnu.tk/Content/img/Element/Element_Hydro.png");
     background-position-x: center;
     background-position-y: center;
 
@@ -188,31 +188,31 @@ div[class*="vkv-"] {
     display: block;
 }*/
 .vkv-Sword {
-    background-image: url("http://192.168.1.18/Content/img/Weapon/Icon_Sword.png");
+    background-image: url("http://tdk14dnu.tk/Content/img/Weapon/Icon_Sword.png");
 
 
 }
 
 .vkv-Bow {
-    background-image: url("http://192.168.1.18/Content/img/Weapon/Icon_Bow.png");
+    background-image: url("http://tdk14dnu.tk/Content/img/Weapon/Icon_Bow.png");
 
 
 }
 
 .vkv-Catalyst {
-    background-image: url("http://192.168.1.18/Content/img/Weapon/Icon_Catalyst.png");
+    background-image: url("http://tdk14dnu.tk/Content/img/Weapon/Icon_Catalyst.png");
 
 
 }
 
 .vkv-Claymore {
-    background-image: url("http://192.168.1.18/Content/img/Weapon/Icon_Claymore.png");
+    background-image: url("http://tdk14dnu.tk/Content/img/Weapon/Icon_Claymore.png");
 
 
 }
 
 .vkv-Polearm {
-    background-image: url("http://192.168.1.18/Content/img/Weapon/Icon_Polearm.png");
+    background-image: url("http://tdk14dnu.tk/Content/img/Weapon/Icon_Polearm.png");
 
 
 }
@@ -246,7 +246,7 @@ div[class*="bg-char-"]:after {
 }
 
 .bg-char-Pyro .name-group {
-    background-image: url("http://192.168.1.18/Content/img/bg_element/pyro.jpg");
+    background-image: url("http://tdk14dnu.tk/Content/img/bg_element/pyro.jpg");
     color: #fff;
     font-weight: bold;
     text-shadow: 1px 1px 3px #000;
@@ -254,29 +254,29 @@ div[class*="bg-char-"]:after {
 
 .bg-char-Anemo .name-group {
     color: #c9ff22;
-    background-image: url("http://192.168.1.18/Content/img/bg_element/anemo.jpg");
+    background-image: url("http://tdk14dnu.tk/Content/img/bg_element/anemo.jpg");
     font-weight: bold;
     text-shadow: 1px 1px 3px #000;
 }
 
 .bg-char-Cryo .name-group {
-    background-image: url("http://192.168.1.18/Content/img/bg_element/cryo.jpg");
+    background-image: url("http://tdk14dnu.tk/Content/img/bg_element/cryo.jpg");
 }
 
 .bg-char-Hydro .name-group {
     color: #c9ff22;
 
-    background-image: url("http://192.168.1.18/Content/img/bg_element/hydro.jpg");
+    background-image: url("http://tdk14dnu.tk/Content/img/bg_element/hydro.jpg");
 }
 
 .bg-char-Dendro .name-group {
-    background-image: url("http://192.168.1.18/Content/img/bg_element/dendro.jpg");
+    background-image: url("http://tdk14dnu.tk/Content/img/bg_element/dendro.jpg");
 }
 
 .bg-char-Electro .name-group {
-    background-image: url("http://192.168.1.18/Content/img/bg_element/electro.jpg");
+    background-image: url("http://tdk14dnu.tk/Content/img/bg_element/electro.jpg");
 }
 
 .bg-char-Geo .name-group {
-    background-image: url("http://192.168.1.18/Content/img/bg_element/geo.jpg");
+    background-image: url("http://tdk14dnu.tk/Content/img/bg_element/geo.jpg");
 }
